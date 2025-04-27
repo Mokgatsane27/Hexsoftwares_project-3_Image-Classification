@@ -1,3 +1,4 @@
+![1000728995](https://github.com/user-attachments/assets/622d01b1-e4a6-4d6a-a25c-99a91e7b7580)
 # Project 3: Image Classification
 
 This project is part of the Hex Softwares Internship.  
