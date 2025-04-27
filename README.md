@@ -16,6 +16,9 @@ We are building an Image Classification model using Python and TensorFlow.
 - Build a Convolutional Neural Network (CNN)
 - Train and evaluate the model
 - Visualize training performance
-
+  
+## Training Performance
+![Training Plot](training_plot.png)
+  
 ### Author
 - Mokgatsanae Mailula
