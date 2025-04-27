@@ -45,4 +45,17 @@ plt.ylabel('Accuracy')
 plt.legend(loc='lower right')
 plt.title('Training and Validation Accuracy')
 plt.show()
+
+import matplotlib.pyplot as plt
+
+# Assuming 'history' is from model.fit()
+plt.plot(history.history['accuracy'], label='Training Accuracy')
+plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.title('Training and Validation Accuracy')
+plt.legend()
+plt.savefig('training_plot.png')  # <-- This saves the picture file
+plt.show()
+
 # Hexsoftwares_project-3_Image-Classification
